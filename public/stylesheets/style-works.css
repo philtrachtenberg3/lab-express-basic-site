@@ -1,0 +1,41 @@
+body {
+    background-image: url('/images/fresh_prince_background_image.jpeg');
+    color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a {
+    background-color: blue;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 5px black;
+  }
+
+section {
+    width: 400px;
+    height: 600px;
+    border: 4px solid blue;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 10px 5px 5px blue;
+}
+
+#fullBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
